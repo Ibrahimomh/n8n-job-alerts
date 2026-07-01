@@ -5,7 +5,7 @@ Pulls remote jobs from RemoteOK, filters duplicates using Supabase, analyzes eac
 Setup
 
 
-1- Import the workflow JSON into n8n
+1- Import the workflow JSON into n8n \n
 2- Create a Supabase table called jobs with columns: remote_id (unique), title, company, url
 3- Add your credentials: Supabase, Telegram bot, Groq API key
 4- Activate the workflow
